@@ -15,7 +15,7 @@ html {
   margin-right: auto;
   margin-left: auto;
   transition: all 0.2s cubic-bezier(0.17, 0.88, 0.75, 0.96);
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 @media (min-width: 576px) {

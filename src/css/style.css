@@ -1,0 +1,59 @@
+:root {
+  --Beige: #f4fcdd;
+  --MayGreen: #4e9f3d;
+  --Black: #191a19;
+  --PaleGoldenrod: #d8e9a8;
+}
+
+body {
+  background-color: var(--Beige);
+}
+
+.header {
+  border-bottom: 1px solid var(--Black);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nav {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  padding-bottom: 1.5rem;
+}
+.nav-logo {
+  width: 3rem;
+}
+.nav-logo svg {
+  width: 100%;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-list li {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 0.4rem;
+  background-color: #4d9f3d80;
+  margin-left: 2rem;
+}
+.nav-list li.active {
+  background-color: #4d9f3d;
+  box-shadow: 0px 4px 20px #4d9f3d;
+}
+
+.nav-btn {
+}
+
+.nav-btn a {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 0.4rem;
+  background-color: #4d9f3d80;
+  margin-left: 2rem;
+}
