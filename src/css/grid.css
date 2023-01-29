@@ -30,6 +30,9 @@ html {
   .container {
     width: 720px;
   }
+  .link-btn a:first-child {
+    display: block;
+  }
 }
 
 /* lg */
