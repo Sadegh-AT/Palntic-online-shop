@@ -23,24 +23,6 @@ html {
   .container {
     width: 540px;
   }
-  .header-main {
-    display: flex;
-    flex-direction: column;
-  }
-  .card-main.c1 {
-    display: none;
-  }
-  .card-main.c2 {
-    display: flex;
-  }
-  .card-main-div {
-    margin-top: 4rem;
-    display: flex;
-    justify-content: space-around;
-  }
-  .info-title {
-    line-height: 5rem;
-  }
 }
 
 /* md */
@@ -49,41 +31,12 @@ html {
   .container {
     width: 720px;
   }
-  .link-btn a:first-child {
-    display: block;
-  }
 }
 
 /* lg */
 @media (min-width: 992px) {
   .container {
     width: 960px;
-  }
-  .card-main-div {
-    margin-top: 4rem;
-    display: flex;
-    justify-content: space-evenly;
-  }
-}
-
-/* xl */
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1140px;
-  }
-  .header-main {
-    display: flex;
-    flex-direction: row;
-  }
-  .card-main.c1 {
-    display: flex;
-  }
-  .card-main.c2 {
-    display: none;
-  }
-  .card-main-div {
-    margin-top: 0;
   }
 }
 
