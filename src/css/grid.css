@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 2rem;
+  scroll-behavior: smooth;
 }
 
 *,

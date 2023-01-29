@@ -310,8 +310,19 @@ body {
   align-items: center;
   font-size: 1.3rem;
 }
+.backtotop a {
+  color: #191a19;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .backtotop:hover {
   border-radius: 1.2rem;
 
   scale: 1.1;
+}
+/* --------------- */
+.swal2-popup {
+  background-color: #becf8e;
 }
