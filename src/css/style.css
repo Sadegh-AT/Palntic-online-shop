@@ -16,7 +16,9 @@
 
 body {
   background-color: var(--Beige);
-  line-height: 2rem;
+  line-height: 1.7rem;
+  font-family: "vazir";
+
   color: #191a19;
 }
 
@@ -106,30 +108,68 @@ body {
 
 /* -----Main----------- */
 
-.title-sec {
+.header-main {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
+  /* border: 1px solid red; */
+  padding-top: 5rem;
 }
 .card-main {
-  width: 7rem;
-  height: 7rem;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 0.7rem;
   background-color: #d8e9a8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.card-main-img {
+  width: 5rem;
+  margin-top: -1rem;
+  margin-bottom: 0.4rem;
+}
+.card-main-img img {
+  width: 100%;
+  object-fit: cover;
 }
 .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .info-title {
   font-family: "kaghaz";
-  font-size: 4rem;
-  margin-bottom: 1rem;
+  font-size: 5rem;
+  margin-bottom: 2rem;
 }
 .info-text {
   font-family: "vazir";
-  font-size: 1.5rem;
+  font-size: 1rem;
   max-width: 22rem;
-  line-height: 2rem;
+  line-height: 1.7rem;
   color: #191a19;
-  border: 1px solid red;
+  margin-bottom: 1rem;
+  /* border: 1px solid red; */
 }
 .info-btn {
+  font-family: "vazir";
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #191a19;
+  background-color: #d0e49a;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+.info-btn:hover {
+  scale: 1.1;
+  background-color: #d7eba3;
 }
