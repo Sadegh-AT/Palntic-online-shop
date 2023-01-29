@@ -252,9 +252,6 @@ body {
   filter: drop-shadow(0px 1rem 30px rgba(0, 0, 0, 0.247));
 }
 
-.product-div.p2 {
-  /* border: 1px solid red; */
-}
 .product.p2 {
   flex-direction: row-reverse;
 }
@@ -275,10 +272,6 @@ body {
 }
 .plant-div.p2 {
   border-radius: 10rem 10rem 10rem 1rem;
-}
-.plant-image.p2 {
-}
-.plant-image.p2 img {
 }
 
 /* -------------------- */
