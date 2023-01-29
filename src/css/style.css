@@ -125,6 +125,11 @@ body {
   align-items: center;
   justify-content: center;
   font-weight: 900;
+  transition: all 0.2s ease-in-out;
+}
+.card-main:hover {
+  transform: scale(1.2) translateY(-1rem);
+  cursor: pointer;
 }
 
 .card-main-img {
@@ -166,10 +171,144 @@ body {
   border-radius: 0.3rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  position: relative;
 }
 
 .info-btn:hover {
   scale: 1.1;
   background-color: #d7eba3;
+}
+
+/* --------Product---------- */
+
+.product-sec {
+  margin-top: 4rem;
+}
+.product-div {
+  /* border: 1px solid red; */
+  margin-top: 7rem;
+}
+.product {
+  display: flex;
+  align-items: center;
+}
+.product-info {
+  margin-right: 3rem;
+  text-align: end;
+}
+.product-title {
+  text-align: end;
+  font-family: "kaghaz";
+  font-size: 4rem;
+}
+.product-text {
+  margin-top: 3rem;
+  display: flex;
+  text-align: end;
+  justify-content: start;
+  margin-bottom: 1rem;
+}
+.product-btn {
+  text-align: end;
+  font-family: "vazir";
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #191a19;
+  background-color: #d0e49a;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.plant-div {
+  width: 40rem;
+  padding: 4rem;
+  background-color: #d0e49a;
+  border-radius: 10rem 10rem 1rem 10rem;
+}
+.plant-image {
+  width: 20rem;
+}
+.plant-image img {
+  width: 100%;
+  object-fit: cover;
+  filter: drop-shadow(0px 1rem 30px rgba(0, 0, 0, 0.247));
+}
+
+.product-div.p2 {
+  /* border: 1px solid red; */
+}
+.product.p2 {
+  flex-direction: row-reverse;
+}
+.product-info.p2 {
+  margin-left: 5rem;
+
+  text-align: start;
+}
+.product-title.p2 {
+  text-align: start;
+}
+.product-text.p2 {
+  text-align: start;
+  justify-content: end;
+}
+.product-btn.p2 {
+  text-align: start;
+}
+.plant-div.p2 {
+  border-radius: 10rem 10rem 10rem 1rem;
+}
+.plant-image.p2 {
+}
+.plant-image.p2 img {
+}
+
+.product-div.p3 {
+  /* border: 1px solid red; */
+  margin-top: 7rem;
+}
+.product.p3 {
+  display: flex;
+  align-items: center;
+}
+.product-info.p3 {
+  margin-right: 3rem;
+  text-align: end;
+}
+.product-title.p3 {
+  text-align: end;
+  font-family: "kaghaz";
+  font-size: 4rem;
+}
+.product-text.p3 {
+  margin-top: 3rem;
+  display: flex;
+  text-align: end;
+  justify-content: start;
+  margin-bottom: 1rem;
+}
+.product-btn.p3 {
+  text-align: end;
+  font-family: "vazir";
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #191a19;
+  background-color: #d0e49a;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.plant-div.p3 {
+  width: 40rem;
+  padding: 4rem;
+  background-color: #d0e49a;
+  border-radius: 10rem 10rem 1rem 10rem;
+}
+.plant-image.p3 {
+  width: 20rem;
+}
+.plant-image.p3 img {
 }
