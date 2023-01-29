@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../font/Vazir.ttf");
+}
+@font-face {
+  font-family: "kaghaz";
+  src: url("../font/KAGHAZ.TTF");
+}
+
 :root {
   --Beige: #f4fcdd;
   --MayGreen: #4e9f3d;
@@ -7,6 +16,8 @@
 
 body {
   background-color: var(--Beige);
+  line-height: 2rem;
+  color: #191a19;
 }
 
 .header {
@@ -91,4 +102,34 @@ body {
 }
 .link-btn a:first-child {
   display: none;
+}
+
+/* -----Main----------- */
+
+.title-sec {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.card-main {
+  width: 7rem;
+  height: 7rem;
+  background-color: #d8e9a8;
+}
+.info {
+}
+.info-title {
+  font-family: "kaghaz";
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.info-text {
+  font-family: "vazir";
+  font-size: 1.5rem;
+  max-width: 22rem;
+  line-height: 2rem;
+  color: #191a19;
+  border: 1px solid red;
+}
+.info-btn {
 }
