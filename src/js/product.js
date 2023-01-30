@@ -8,7 +8,7 @@ class Product {
   }
 
   AddProduct(items) {
-    let productHtml = `<div class="product-card">
+    let productHtml = `<div class="product-card wow animate__animated animate__bounceIn">
                     <div class="product-card-img">
                         <img src="../image/product/${items.image}" alt="">
                     </div>

@@ -34,7 +34,7 @@ function AddCounter(counter) {
 }
 
 const social = document.querySelectorAll(".social a");
-const socialText = document.querySelectorAll("");
+
 for (const item of social) {
   item.addEventListener("mouseenter", () => {
     item.classList.add("active");
