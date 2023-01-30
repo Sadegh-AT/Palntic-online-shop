@@ -1,13 +1,15 @@
 .main {
 }
 .products {
-  border: 1px solid red;
-  display: grid;
+  /* border: 1px solid red; */
+  display: flex;
   justify-content: center;
-  grid-template-columns: repeat(5, 1fr);
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin: 7rem 0;
 }
 .product-card {
-  background-color: #d0e49a;
+  background-color: #d0e49a91;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,4 +48,8 @@
   border-radius: 0.5rem;
   font-weight: 900;
   margin-top: 1rem;
+  cursor: pointer;
+}
+.products-btn:hover {
+  background-color: #6cc55a;
 }
