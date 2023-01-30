@@ -32,3 +32,12 @@ for (const item of buyBtn) {
 function AddCounter(counter) {
   counter.innerHTML = Number(counter.innerHTML) + 1;
 }
+
+const social = document.querySelectorAll(".social a");
+const socialText = document.querySelectorAll("");
+for (const item of social) {
+  item.addEventListener("mouseenter", () => {
+    item.classList.add("active");
+    console.log("|asfdsaf");
+  });
+}
