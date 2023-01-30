@@ -18,6 +18,7 @@ body {
   background-color: var(--Beige);
   line-height: 1.7rem;
   font-family: "vazir";
+  overflow-x: hidden;
 
   color: #191a19;
 }
@@ -190,7 +191,7 @@ body {
 }
 /* -----Main----------- */
 .main {
-  margin-bottom: 10rem;
+  margin-top: 1rem;
 }
 .header-main {
   display: flex;
@@ -232,8 +233,10 @@ body {
 }
 .info-title {
   font-family: "kaghaz";
-  font-size: 5rem;
+  font-size: 7rem;
   margin-bottom: 2rem;
+  line-height: 8rem;
+  width: 30rem;
 }
 .info-text {
   font-family: "vazir";
@@ -262,10 +265,87 @@ body {
   background-color: #d7eba3;
 }
 
+/* -------Service---------- */
+
+.article {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 15rem;
+}
+
+.article-title {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 7rem 0;
+  position: relative;
+  background-color: #63c251;
+  padding: 1rem 0.5rem;
+  border-radius: 1rem;
+}
+.article-title::before {
+  content: "";
+  position: absolute;
+  width: 110vw;
+  top: 50%;
+  z-index: -1;
+  left: -200%;
+  background-color: #191a19;
+  height: 1px;
+}
+.articles {
+  display: flex;
+  justify-content: center;
+}
+.article-card {
+  width: 20rem;
+  height: 43rem;
+  background-color: #d8e9a873;
+  padding: 1.5rem;
+
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.116);
+  margin: 0 3rem;
+}
+.article-img {
+  /* margin-top: 2rem; */
+  width: 100%;
+  /* overflow: hidden; */
+}
+.article-img img {
+  border-radius: 0.8rem;
+  width: 100%;
+  object-fit: contain;
+}
+.article-card-title {
+  font-weight: 900;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+.article-card-text {
+}
+.article-card-btn {
+  font-weight: 900;
+  text-decoration: none;
+  color: #f4fcdd;
+  background-color: #4e9f3d;
+  margin: 1rem 0;
+  padding: 0.7rem 0;
+  border-radius: 0.6rem;
+}
+.article-card-btn:hover {
+  background-color: #63c251;
+}
 /* --------Product---------- */
 
 .product-sec {
   margin-top: 4rem;
+  margin-bottom: 10rem;
 }
 .product-div {
   /* border: 1px solid red; */
